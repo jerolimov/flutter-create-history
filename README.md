@@ -1,16 +1,10 @@
-# tutorial
+# Bare project history to compare different flutter versions
 
-A new Flutter project.
+[![Build Status](https://travis-ci.org/jerolimov/flutter-create-history.svg?branch=master)](https://travis-ci.org/jerolimov/flutter-create-history)
 
-## Getting Started
+This project (will) contain bare [flutter](https://flutter.io/) projects, started just now with flutter 1.0.
 
-This project is a starting point for a Flutter application.
+It can help you to compare different flutter versions with `git diff` or github compare.
+Before upgrade manually you could also try `flutter upgrade` in your project.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Each version is generated with `flutter create tutorial`.
