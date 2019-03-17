@@ -18,7 +18,7 @@ matrix:
           - android-27
           - android-28
       install:
-        - curl -o flutter.tar.tar.xz https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.0.0-stable.tar.xz
+        - curl -o flutter.tar.tar.xz https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.2.1-stable.tar.xz
         - tar -xf flutter.tar.tar.xz
         - ./flutter/bin/flutter doctor
       script:
@@ -27,7 +27,7 @@ matrix:
     - language: objective-c
       osx_image: xcode10
       install:
-        - curl -o flutter.zip https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip
+        - curl -o flutter.zip https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.2.1-stable.zip
         - unzip -q flutter.zip
         - ./flutter/bin/flutter doctor
       script:
